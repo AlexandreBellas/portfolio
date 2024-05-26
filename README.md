@@ -21,7 +21,7 @@ Run on the terminal:
 npm run build
 ```
 
-The generated files will be in the `.next` folder.
+The generated files will be in the `out` folder.
 
 ## Deployment
 
