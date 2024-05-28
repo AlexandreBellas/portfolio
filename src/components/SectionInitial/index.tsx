@@ -18,6 +18,7 @@ export default function SectionInitial() {
           width={160}
           height={160}
           alt="Alexandre Batistella"
+          unoptimized
         />
       </div>
       <div className="container text-center">
