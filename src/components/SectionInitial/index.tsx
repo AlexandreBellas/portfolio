@@ -1,15 +1,14 @@
 import Image from 'next/image'
-import { differenceInYears } from 'date-fns'
 import Link from 'next/link'
+import { useYearsOfExperience } from '@/contexts/YearsOfExperienceProvider'
 
 export default function SectionInitial() {
-  // 01/06/2018
-  const yearsOfExperience = differenceInYears(new Date(), new Date(2018, 5, 1))
+  const { years: yearsOfXp } = useYearsOfExperience()
 
   return (
     <section
       id="initial"
-      className="flex min-h-screen flex-col items-center justify-center bg-slate-800"
+      className="flex min-h-screen flex-col items-center justify-center bg-slate-800 py-12"
     >
       <div className="relative inline-block rounded-full bg-instagram p-1">
         <Image
@@ -28,7 +27,7 @@ export default function SectionInitial() {
         <p className="mt-1 text-6xl font-medium text-white">
           {'Full-stack Software Engineer'}
         </p>
-        <p className="mt-1 text-xl text-white">{`${yearsOfExperience} years of experience`}</p>
+        <p className="mt-1 text-xl text-white">{`${yearsOfXp} years of experience`}</p>
         <p className="mt-16 text-2xl text-white">
           {
             'Work with a great leader with excellent technical skills. Check out my personal projects below 😉'
