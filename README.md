@@ -3,8 +3,6 @@
 This repository refers to the code used to build [my portfolio](https://alebatistella.com).
 Also, it has been used to sharpen my skills in NextJS and Tailwind CSS.
 
-Under development.
-
 ## Running in development
 
 Run on the terminal:
