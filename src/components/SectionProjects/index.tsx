@@ -3,6 +3,7 @@ import { format } from 'date-fns'
 import { ArrowUpRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import BadgeTech from '../BadgeTech'
 
 export default function SectionProjects() {
   return (
@@ -38,14 +39,11 @@ export default function SectionProjects() {
                 </div>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.techs.map((tech) => (
-                    <div
+                    <BadgeTech
+                      description={tech.description}
+                      slug={tech.slug}
                       key={tech.slug}
-                      className="rounded-md bg-white/75 px-1.5 py-0.5 text-slate-900"
-                    >
-                      <p className="flex-none font-medium">
-                        {tech.description}
-                      </p>
-                    </div>
+                    />
                   ))}
                 </div>
               </div>
