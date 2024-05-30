@@ -6,7 +6,7 @@ export default function SectionAboutMe() {
   const { years } = useYearsOfExperience()
 
   return (
-    <section id="aboutMe" className="flex justify-center bg-slate-900 py-12">
+    <section id="aboutMe" className="flex justify-center bg-slate-800 py-12">
       <div className="container">
         <p className="mb-3 text-3xl font-extrabold text-white">About me</p>
         <div className="flex space-x-8">

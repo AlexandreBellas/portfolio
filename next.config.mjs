@@ -7,6 +7,9 @@ const nextConfig = {
       {
         hostname: 'skillicons.dev',
       },
+      {
+        hostname: 'cdn.simpleicons.org',
+      },
     ],
   },
 }

@@ -8,12 +8,12 @@ export default function SectionInitial() {
   return (
     <section
       id="initial"
-      className="flex min-h-screen flex-col items-center justify-center bg-slate-800 py-12"
+      className="flex min-h-screen flex-col items-center justify-center bg-slate-900 py-12"
     >
       <div className="relative inline-block rounded-full bg-instagram p-1">
         <Image
-          className="rounded-full border-4 border-slate-800"
-          src="/profile.jpg"
+          className="rounded-full border-4 border-slate-900"
+          src="/images/profile.jpg"
           width={160}
           height={160}
           alt="Alexandre Batistella"
@@ -37,13 +37,13 @@ export default function SectionInitial() {
       <div className="container mt-10 space-x-4 text-center">
         <Link
           href="#projects"
-          className="rounded-lg border-2 border-slate-700 px-4 py-3 font-semibold text-white hover:bg-amber-400 hover:text-amber-950"
+          className="rounded-lg border-2 border-slate-700 px-4 py-3 font-semibold text-white transition-colors duration-300 ease-in-out hover:bg-amber-500 hover:text-amber-950"
         >
           Check them out
         </Link>
         <Link
           href="#contactMe"
-          className="rounded-lg bg-amber-400 px-4 py-3 font-semibold text-amber-950 hover:bg-amber-400/75"
+          className="rounded-lg bg-amber-500 px-4 py-3 font-semibold text-amber-950 hover:bg-amber-500/75"
         >
           Contact me
         </Link>

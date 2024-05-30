@@ -1,4 +1,4 @@
-interface ITech {
+export interface ITech {
   slug: string
   description: string
 }
