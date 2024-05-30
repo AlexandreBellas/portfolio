@@ -23,7 +23,6 @@ export default function SectionProjects() {
                 alt={project.slug}
                 width={200}
                 height={200}
-                objectFit="cover"
               />
               <div className="m-6 flex flex-1 flex-col justify-between">
                 <div>
