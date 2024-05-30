@@ -27,20 +27,16 @@ export const projects: IProject[] = [
         description: 'Typescript',
       },
       {
+        slug: 'node',
+        description: 'NodeJS',
+      },
+      {
         slug: 'react',
         description: 'ReactJS',
       },
       {
         slug: 'nextjs',
         description: 'NextJS',
-      },
-      {
-        slug: 'php',
-        description: 'PHP',
-      },
-      {
-        slug: 'laravel',
-        description: 'Laravel',
       },
       {
         slug: 'postgresql',
