@@ -7,7 +7,7 @@ export default function SectionContactMe() {
   return (
     <section
       id="contactMe"
-      className="flex min-h-screen flex-col items-center justify-center bg-slate-800 py-12"
+      className="flex min-h-[110vh] flex-col items-center justify-center bg-slate-800 py-12"
     >
       <div className="container mx-auto">
         <p className="mb-3 text-center text-3xl font-extrabold text-white">
@@ -38,7 +38,7 @@ export default function SectionContactMe() {
         <div className="mt-8 flex justify-center">
           <Link
             href="/docs/Alexandre_Batistella_Bellas_CV.pdf"
-            className="flex gap-4 rounded-xl bg-amber-500/75 px-8 py-3 hover:opacity-80"
+            className="flex gap-2 rounded-xl bg-amber-500/75 px-6 py-3 hover:opacity-80"
           >
             <CloudDownloadIcon className="text-amber-950" />
             <p className="font-bold text-amber-950">Download CV</p>

@@ -20,17 +20,19 @@ export default function Footer() {
   ]
   return (
     <footer className="bg-slate-900 py-4">
-      <div className="flex justify-center gap-2">
-        <p className="text-white">
+      <div className="flex flex-col justify-center gap-2 md:flex-row">
+        <p className="text-center text-white">
           ©️ {currYear} Made by Alexandre Batistella with
         </p>
-        {techs.map((tech) => (
-          <BadgeTech
-            description={tech.description}
-            slug={tech.slug}
-            key={tech.slug}
-          />
-        ))}
+        <div className="flex justify-center gap-2">
+          {techs.map((tech) => (
+            <BadgeTech
+              key={tech.slug}
+              description={tech.description}
+              slug={tech.slug}
+            />
+          ))}
+        </div>
       </div>
     </footer>
   )

@@ -1,5 +1,5 @@
 import { differenceInYears } from 'date-fns'
 
 export default function getYearsOfExperience(): number {
-  return differenceInYears(new Date(), new Date(2018, 5, 1))
+  return differenceInYears(new Date(), new Date(2018, 4, 1))
 }

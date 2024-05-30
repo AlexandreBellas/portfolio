@@ -7,9 +7,9 @@ export default function SectionAboutMe() {
 
   return (
     <section id="aboutMe" className="flex justify-center bg-slate-800 py-12">
-      <div className="container">
+      <div className="container mx-4">
         <p className="mb-3 text-3xl font-extrabold text-white">About me</p>
-        <div className="flex space-x-8">
+        <div className="flex flex-col space-x-8 lg:flex-row">
           <div className="flex-1">
             <p className="mb-2 text-justify text-white">
               {`My contact with technology started when I was 4 years old. My

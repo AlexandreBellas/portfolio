@@ -8,9 +8,9 @@ import BadgeTech from '../BadgeTech'
 export default function SectionProjects() {
   return (
     <section id="projects" className="flex justify-center bg-slate-900 py-12">
-      <div className="container">
+      <div className="container mx-4">
         <p className="text-3xl font-extrabold text-white">Projects</p>
-        <div className="mt-4 grid grid-cols-3 gap-x-4 gap-y-4">
+        <div className="mt-4 grid grid-cols-1 gap-x-4 gap-y-4 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <div
               key={project.slug}
