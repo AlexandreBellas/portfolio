@@ -25,6 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Alexandre Batistella | Portfolio',
     description: 'Get to know better Alexandre Batistella',
+    images: 'https://alebatistella.com/images/profile.jpg',
   },
 }
 
