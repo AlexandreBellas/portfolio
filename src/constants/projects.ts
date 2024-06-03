@@ -44,6 +44,7 @@ export const projects: IProject[] = [
       },
     ],
     githubUrl: 'https://github.com/AlexandreBellas/momonario',
+    liveUrl: 'https://momonario.alebatistella.com',
   },
   {
     slug: '2040dog',
